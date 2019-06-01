@@ -1,2 +1,1 @@
-# vayudoot.org
-vayudoot.org sources
+Sources for https://vayudoot.org

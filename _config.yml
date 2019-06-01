@@ -1,0 +1,53 @@
+title: Digitally Enlightened
+description: Stateless observations of transient digital world
+author: vayudoot
+github: https://github.com/vayudoot
+about: A technofile with wide ranging interests.
+avatar_url: /static/img/avatar.jpg
+timezone: GMT
+highlighter: rouge
+google_analytics: 
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-twitter
+      link: "#"
+    - icon: fa-linkedin
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/vayudoot"
+
+share:
+  twitter_username: nishankt
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://vayudoot.org"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
