@@ -48,7 +48,7 @@ ptr_array[-1] = mem;
 
 To free this memory block, all we need to do is `free((void **)addr[-1])`. With that our final code looks like following -
 
-{% highlight c linenos %}
+```c
 void *memalign_malloc(size_t bytes, size_t align)
 {
     size_t extra = (align - 1) + sizeof(void *);
@@ -64,4 +64,4 @@ void memalign_free(void *addr)
         free(((void **)addr)[-1]);
     }
 }
-{% endhighlight %}
+```
