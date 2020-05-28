@@ -2,7 +2,7 @@ title: Digitally Enlightened
 description: Stateless observations of transient digital world
 author: vayudoot
 github: https://github.com/vayudoot
-about: A technofile with wide ranging interests.
+about: A technophile with wide ranging interests.
 avatar_url: /static/img/avatar.jpg
 timezone: GMT
 highlighter: rouge
@@ -25,7 +25,7 @@ social:
       link: "https://github.com/vayudoot"
 
 share:
-  twitter_username: nishankt
+  twitter_username: 
 
 urls:
     - text: About Me
@@ -34,6 +34,8 @@ urls:
       url: /projects/
     - text: XML Feed
       url: /feed.xml
+    - text: Sitemap
+      url: /sitemap.xml
 
 url: "https://vayudoot.org"
 baseurl: ""
